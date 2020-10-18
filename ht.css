@@ -1,0 +1,25 @@
+body{
+background: #FF0000;
+
+
+}
+.a{
+
+width:80%;
+height:100%;
+position: center;
+}
+img{
+width: 300px;
+height: 200px;
+-webkit-transition: -webkit-transform 1s;
+
+
+}
+img:hover{
+  transform:scale(0.7,0.7) rotateZ(360deg);
+  transform: 5s transform;
+  border-color: black;
+  -webkit-transition: rotate(360deg) translateZ(0);
+ 
+}
